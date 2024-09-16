@@ -10,7 +10,7 @@ import os
 
 
 # Load the pre-trained emotion detection model
-model = load_model('/Users/shayan/Unina/DMML/FED2/models/final_emotion_model44.h5')
+model = load_model('final_emotion_model44.h5')
 
 # Define emotion classes
 emotion_classes = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
